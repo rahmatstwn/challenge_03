@@ -123,7 +123,10 @@ export default Latest;
 
 const styles = StyleSheet.create({
     Judul:{
-        fontSize: moderateScale(16)
+        fontSize: moderateScale(16),
+        marginTop:moderateScale(-20),
+        marginBottom:moderateScale(15),
+        fontWeight:'bold',
     }
     ,container: {
         marginTop: moderateScale(20),

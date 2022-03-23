@@ -1,15 +1,13 @@
 import React, {useEffect} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-// import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from 'react-native-splash-screen';
 
 import Router from './src/config/router';
 
 const App = () => {
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     SplashScreen.hide();
-  //   }, 2000);
-  // }, []);
+  useEffect (() => {
+    SplashScreen.hide();
+  }, [])
 
   return (
     <NavigationContainer>
