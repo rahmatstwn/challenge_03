@@ -1,4 +1,4 @@
 import * as FetchSemua from './getSemua'
-import * as FectDetail from './getDetail'
+import * as FetchDetail from './getDetail'
 
-export {FetchSemua, FectDetail}
+export {FetchSemua, FetchDetail}

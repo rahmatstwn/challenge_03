@@ -39,10 +39,12 @@ const styles = StyleSheet.create({
     Gambar: {
         height: moderateScale(180),
         borderRadius: moderateScale(10),
-    }, Judul: {
+    },
+    Judul: {
         fontSize: moderateScale(16),
         fontWeight: 'bold',
         marginTop: moderateScale(16),
         marginLeft: moderateScale(16),
+        color:'#000000'
     }
 })

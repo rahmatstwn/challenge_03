@@ -6,7 +6,7 @@ export const get = async (setData, screenStat) => {
     .get(API_url)
     .then(req => {
       setData(req.data);
-      screenStat(true);
+      // screenStat(true);
     })
     .catch(err => {
       console.log(err);
